@@ -6,17 +6,17 @@
 	<title>JS Functions</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script>
-	// Named Function
 
-	function returnCaller () {
-		// code to execute
-	 	return;
+	function  hoistVar() {
+		var x; // prints undefined
 
-	}
+		document.write(x);
+			var x = 5;
+    }
 
-	alert(returnCaller());
-	// alerts undefined as a return value is always there - but until defined its value is
-	// undefined
+    // if we run this we can see the var x is hoisted up to the top
+	// BUT the value is not hoisted therefore prints out 'undefined'
+    hoistVar();
 
 </script>
 </head>
