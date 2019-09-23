@@ -7,14 +7,22 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script>
 
-    hoistVar();
+    useCallback ( 5, callbackY );
 
-	function hoistVar() {
-		document.write("helo");
+	function useCallback(x, callback) {
+		document.write("hello");
+		callback();
     }
 
-    // What this does is hoist the whole function up & runs it - so you see helo on the screen
+    function callbackX() {
+	    document.write(" this is the callback X function")
+	}
 
+    function callbackY() {
+        document.write(" this is the callback Y function")
+    }
+
+   //  shows on screen: hello this is the callback Y function
 
 </script>
 </head>
