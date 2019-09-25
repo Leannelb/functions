@@ -3,13 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ff8be2c1-b583-425e-b2ce-8da0dcb0ca8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jsapp01" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +58,7 @@
       <workItem from="1569262926754" duration="9983000" />
       <workItem from="1569312336016" duration="3019000" />
       <workItem from="1569397810364" duration="208000" />
-      <workItem from="1569437000458" duration="1326000" />
+      <workItem from="1569437000458" duration="2697000" />
     </task>
     <servers />
   </component>
