@@ -12,4 +12,15 @@ function Counter(el) {
 
 new Counter(container);
 
+/*
+* loop through items in an array using filter:*
+**
+*
+* * * * * */
 var filtered = [1,2,3].filter(x => x > 0)
+
+// this is the same as
+
+var filtered = [1, 2, 3 ].filter( (x) => {
+    return x > 0;
+})
